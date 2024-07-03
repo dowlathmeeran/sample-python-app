@@ -25,8 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'j9eta=u(6qrfo&u1x9z8^01j-%f2s+cyozmh*#u9ec($=zd_^d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
+DEBUG = True
 ALLOWED_HOSTS = ['minutox.app.vtxhub.com','127.0.0.1']
 
 LOGIN_URL = 'login'
